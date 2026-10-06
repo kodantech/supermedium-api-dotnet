@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMediumDotNet", "SuperMediumDotNet\SuperMediumDotNet.csproj", "{EEF5FE13-7B09-4039-8A16-96B0EFA542A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF5FE13-7B09-4039-8A16-96B0EFA542A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF5FE13-7B09-4039-8A16-96B0EFA542A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF5FE13-7B09-4039-8A16-96B0EFA542A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF5FE13-7B09-4039-8A16-96B0EFA542A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

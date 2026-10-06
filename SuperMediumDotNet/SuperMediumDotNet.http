@@ -1,0 +1,32 @@
+@SuperMediumDotNet_HostAddress = http://localhost:5025
+
+GET {{SuperMediumDotNet_HostAddress}}/posts
+Accept: application/json
+
+###
+
+GET {{SuperMediumDotNet_HostAddress}}/posts/99
+
+###
+
+POST {{SuperMediumDotNet_HostAddress}}/posts
+Content-Type: application/json
+
+{
+  "Title": "lul",
+  "Description": "Foo Bar Baz Yarsh"
+}
+
+###
+
+PUT {{SuperMediumDotNet_HostAddress}}/posts/6
+Content-Type: application/json
+
+{
+  "Title": "Khoa test 67",
+  "Description": "YarshYarsh Yarsh"
+}
+
+###
+
+DELETE {{SuperMediumDotNet_HostAddress}}/posts/99

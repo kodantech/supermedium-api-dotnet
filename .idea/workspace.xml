@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="034b92f4-0235-46b9-8b8b-240b555ab570" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SuperMediumDotNet/.idea/awsToolkit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SuperMediumDotNet/.idea/awsToolkit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperMediumDotNet/Data/PostContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMediumDotNet/Data/PostContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperMediumDotNet/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMediumDotNet/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperMediumDotNet/SuperMediumDotNet.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SuperMediumDotNet/SuperMediumDotNet.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="b347e032-cbca-4f31-8ea2-87a1daec4a53" value="" />
+    </colors>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3KKMXCZKVxOun7W6F6vKZtarKRk" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/lekho/Desktop/supermedium-api-dotnet",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="034b92f4-0235-46b9-8b8b-240b555ab570" name="Changes" comment="" />
+      <created>1791301843370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791301843370</updated>
+    </task>
+    <servers />
+  </component>
+</project>

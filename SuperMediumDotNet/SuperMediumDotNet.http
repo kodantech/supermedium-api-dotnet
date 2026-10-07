@@ -13,8 +13,11 @@ POST {{SuperMediumDotNet_HostAddress}}/posts
 Content-Type: application/json
 
 {
-  "Title": "lul",
-  "Description": "Foo Bar Baz Yarsh"
+  "Id": 3,
+  "Title": "Post 3",
+  "Description": "Khoa Le Hello World",
+  "PublishDate": "2026-08-10",
+  "TagId": 2
 }
 
 ###

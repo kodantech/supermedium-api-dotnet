@@ -15,6 +15,9 @@ public static class DataExtensions
     public static void InitializeDb(this WebApplicationBuilder builder)
     {
         var connString = builder.Configuration.GetConnectionString("SuperMedium");
+
+        builder.Services.AddScoped<SuperMediumContext>();
+
         builder.Services.AddSqlite<SuperMediumContext>(connString,
             optionsAction: options => options.UseSeeding((context, _) =>
             {

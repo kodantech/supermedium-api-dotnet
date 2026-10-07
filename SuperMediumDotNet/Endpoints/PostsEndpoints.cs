@@ -6,33 +6,15 @@ public static class PostsEndpoints
 {
     private const string EndpointName = "GetPost";
 
-    private static readonly List<PostDto> Posts =
-    [
-        new(
-            1,
-            "Post 1",
-            "Foo",
-            new DateOnly(2026, 10, 5)
-        ),
-        new(
-            2,
-            "Post 2",
-            "Bar",
-            new DateOnly(2026, 10, 5)
-        ),
-        new(
-            3,
-            "Post 3",
-            "Baz",
-            new DateOnly(2026, 10, 5)
-        )
-    ];
 
     public static void MapPostsEndpoints(this WebApplication app)
     {
         var group = app.MapGroup("posts");
 
-        group.MapGet("/", () => Posts);
+        group.MapGet("/", (_, ) =>
+        {
+            
+        });
 
         group.MapGet(("/{id:int}"), (int id) =>
         {

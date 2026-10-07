@@ -9,7 +9,7 @@ using SuperMediumDotNet.Data;
 
 namespace SuperMediumDotNet.Data.Migrations
 {
-    [DbContext(typeof(PostContext))]
+    [DbContext(typeof(SuperMediumContext))]
     partial class PostContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

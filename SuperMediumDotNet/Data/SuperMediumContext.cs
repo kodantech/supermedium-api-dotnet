@@ -3,7 +3,7 @@ using SuperMediumDotNet.Models;
 
 namespace SuperMediumDotNet.Data;
 
-public class PostContext(DbContextOptions<PostContext> options) : DbContext(options)
+public class SuperMediumContext(DbContextOptions<SuperMediumContext> options) : DbContext(options)
 {
     public DbSet<Post> Posts => Set<Post>();
 

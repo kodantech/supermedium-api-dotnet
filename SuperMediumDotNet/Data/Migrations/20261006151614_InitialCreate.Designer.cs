@@ -10,7 +10,7 @@ using SuperMediumDotNet.Data;
 
 namespace SuperMediumDotNet.Data.Migrations
 {
-    [DbContext(typeof(PostContext))]
+    [DbContext(typeof(SuperMediumContext))]
     [Migration("20261006151614_InitialCreate")]
     partial class InitialCreate
     {

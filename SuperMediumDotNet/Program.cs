@@ -7,10 +7,11 @@ builder.Services.AddValidation();
 
 builder.Services.AddOpenApi();
 
-const string connString = "Data Source=SuperMediumDotNet.db";
-builder.Services.AddSqlite<PostContext>(connString);
+builder.InitializeDb();
 
 var app = builder.Build();
+
+app.MigrateDb();
 
 app.MapPostsEndpoints();
 
